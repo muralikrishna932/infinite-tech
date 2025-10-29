@@ -187,7 +187,7 @@ p {
   z-index: 5;
   transition: all .4s ease-in-out;
   border: none;
-  background: linear-gradient(to left, #3763eb 0%, #6f58e8 50.39%, #3763eb 100%);
+  background: #ED0D01;
   background-size: 200% auto;
   overflow: hidden; }
   .theme-btn:hover, .theme-btn:focus {
@@ -198,7 +198,7 @@ p {
     box-shadow: 0px 0px 30px rgba(46, 87, 217, 0.45); }
   .theme-btn.border-btn {
     padding: 14px 40px;
-    background: transparent;
+    /*background: transparent;*/
     border: 1.5px solid #3763EB;
     color: #6A7C92;
     font-size: 18px;
@@ -261,6 +261,15 @@ p {
   @media (max-width: 767px) {
     .section-title span {
       font-size: 20px; } }
+
+
+  .banner1-title h2 {
+    font-size: 55px;
+  }    
+
+   .banner2-title h2 {
+    font-size: 45px;
+  }  
 
 .section-title h2 {
   line-height: 55px;
@@ -1238,7 +1247,8 @@ p {
         justify-content: space-between;
         padding: 10px 0; } }
     .navbar-nav .nav-item a.active {
-      color: #3763EB; }
+      color: #3763EB; 
+      font-weight: bold;}
     .navbar-nav .nav-item a.dd-menu {
       padding-right: 34px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1408,7 +1418,7 @@ p {
     .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .section-title p {
       margin-bottom: 40px; }
     .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .border-btn {
-      border-color: #fff;
+      /*border-color: #fff;*/
       color: #fff; }
       .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .border-btn:hover {
         background: rgba(255, 255, 255, 0.2); }
@@ -1479,6 +1489,7 @@ p {
     transition: all 0.3s ease-out 0s; }
     .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img:hover {
       opacity: 1; }
+
 
 .box-style {
   padding: 40px 30px;
@@ -1592,8 +1603,8 @@ p {
     .about-section .about-img-wrapper .about-experience {
       width: 300px;
       border-radius: 27px;
-      background: linear-gradient(to top left, #3763eb 0%, #6f58e8 100%);
-      border: 5px solid #eff2f9;
+      background: #ED0D01;
+      /*border: 5px solid #eff2f9;*/
       padding: 40px 20px;
       position: absolute;
       right: -40px;
